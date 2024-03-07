@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social links profile</title>
+  <style>
+    .main{
+      background-color: hsl(0, 0%, 8%);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .container{
+      background-color: hsl(0, 0%, 12%);
+      max-width: 320px;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2em;
+    }
+    img{
+      max-width: 5em;
+      border-radius: 50%;
+      max-height: 4em;
+    }
+    .name1{
+      font-size: x-large;
+      color: hsl(0, 0%, 100%);
+      margin-bottom: 0px;
+    }
+    .city1{
+      color: hsl(75, 94%, 57%);
+      margin-top: 0px;
+    }
+    .des1{
+      margin-top: 0px;
+      color: hsl(0, 0%, 100%);
+      font-size: small;
+    }
+    .box1{
+      background-color: hsl(0, 0%, 20%);
+      height: 35px;
+      width: 118%;
+      margin:5px 0px;
+      border-radius: 2px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .t1{
+      color: hsl(0, 0%, 100%);
+    }
+    .box1:hover{
+      background-color: hsl(75, 94%, 57%);
+      cursor: pointer;
+    }
+    .box1:hover .t1{
+      color: black;
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="main">
+    <div class="container">
+      <img src="./assets/images/my pic_500kb.jpg" alt="Error">
+      <p class="name1">Neeraj Kaushik</p>
+      <p class="city1">Dubaldhan, India</p>
+      <p class="des1">"Front-end developer and avid reader."</p>
+      <a href="https://github.com/Neeraj-kaushik" class="box1"><div >
+        <p class="t1">Github</p>
+      </div></a>
+      <a href="https://www.frontendmentor.io/profile/Neeraj-kaushik" class="box1"><div >
+        <p class="t1">Frontend Mentor</p>
+      </div></a>
+      <a href="https://www.linkedin.com/in/neeraj-kaushik-7a3226194/" class="box1"><div >
+        <p class="t1">LinkedIn</p>
+      </div></a>
+      <a href="https://vercel.com/neerajs-projects-7fbdceda" class="box1"><div >
+        <p class="t1">Vercel</p>
+      </div></a>
+      <a href="https://github.com/Neeraj-kaushik" class="box1"><div >
+        <p class="t1">Instagram</p>
+      </div></a>
+    </div>
+  </div>
+</body>
+</html>
